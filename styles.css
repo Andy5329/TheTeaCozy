@@ -1,0 +1,188 @@
+body {
+	font-color: seashell;
+	font-size: 22px;
+	background-color: gray;
+	padding: 90px;
+	/* Sets 20 pixels of padding on all sides of the element */
+	/* Or */
+	padding-top: 10px;
+	/* Sets 10 pixels of padding on the top side */
+	padding-right: 80px;
+	/* Sets 15 pixels of padding on the right side */
+	padding-bottom: 10px;
+	/* Sets 10 pixels of padding on the bottom side */
+	padding-left: 80px;
+	border: 0.50px solid red;
+	margin: 10px;
+	background-color: black;
+	opacity: 0.9;
+	font-family: "Helvetica";
+
+
+}
+
+
+.breadcrambs {
+	display: flex;
+	justify-content: flex-end;
+	text-decoration: underline;
+	gap: 10px;
+	font-color: seashell;
+
+}
+
+a:link {
+	/* Styles for unvisited links */
+	color: seashell;
+	text-decoration: none;
+}
+
+.logo {
+	height: 10px;
+	width: 50px;
+	color: white;
+	display: flex;
+	text-align: left;
+}
+
+.header {
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	padding-bottom: 2%;
+	width: 1230px;
+
+}
+
+/* mission section */
+.mission {
+	color: seashell;
+	display: flex;
+	text-align: center;
+	/* Centers the text horizontally */
+	align-items: center;
+	/* Centers the text vertically */
+
+
+}
+
+
+.background-mission {
+	background-image: url("/Users/claudia/Documents/teaCozyProject/ptotosCozyTea/img-mission-background.webp");
+	height: 700px;
+	width: 1200px;
+	background-color: black;
+	display: grid;
+	place-items: center;
+	display: flex;
+	align-items: center;
+	/* Vertically centers the div within the container */
+	justify-content: center;
+	border-bottom: 1px solid seashell;
+
+
+}
+
+
+.blackbackground {
+	background-color: black;
+	width: 1300px;
+
+
+}
+
+#featured-tea {
+	width: 1000px;
+	height: 600px;
+	background-color: black;
+
+
+}
+
+#featured-tea .first-row {
+	display: flex;
+	/* Use Flexbox to create a flex container */
+	flex-wrap: nowrap;
+	/* Allow elements to wrap to a new row if they exceed the container's width */
+	justify-content: center;
+	/* Distribute the elements with equal space between them */
+	flex-direction: center;
+	padding-left: 30%;
+	padding-right: 10%;
+
+}
+
+#featured-tea .second-row {
+	display: flex;
+	/* Use Flexbox to create a flex container */
+	flex-wrap: nowrap;
+	/* Allow elements to wrap to a new row if they exceed the container's width */
+	justify-content: space-between;
+	/* Distribute the elements with equal space between them */
+	flex-direction: center;
+}
+
+
+#featured-tea .images img {
+	width: 300px;
+	height: 200px;
+	padding-left: 10%;
+
+}
+
+.images figcaption {
+	font-size: 18px;
+	/* Set the font size for the caption */
+	text-align: center;
+	color: seashell;
+	/* Set the font color of the caption */
+}
+
+.background-location {
+	background-image: url("/Users/claudia/Documents/teaCozyProject/ptotosCozyTea/img-locations-background.webp");
+	height: 600px;
+	width: 1200px;
+	text-align: center;
+	color: seashell;
+
+
+}
+
+
+.location {
+	padding-top: 15px;
+	display: flex;
+	flex-direction: row;
+	/* Set the flex direction to row (horizontal) */
+	justify-content: center;
+	/* Horizontally center the items within the container */
+	/* Add other styles for the .location container as needed */
+	align-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	gap: 40px;
+
+}
+
+
+.squares {
+
+	text-align: center;
+	color: white;
+	background-color: black;
+	width: 300px;
+	height: 300px;
+}
+
+.info {
+	text-align: center;
+	color: seashell;
+	align-items: center;
+	height: 200px;
+
+}
+
+.footer {
+	text-align: left;
+	color: seashell;
+	padding-left: 20px;
+}
